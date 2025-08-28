@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  border-spacing: 50px;
+  background-color: white;
 }
 
 header {
-  background-color: white;
-  padding: 1rem;
-  border-bottom: 1px solid #e5e4e2;
+  background-color: #f9fafb;
+   border-bottom: 1px solid #e5e4e2;
 }
 .nav {
   display: flex;
@@ -32,35 +31,22 @@ header {
   text-align: center;
   padding: 2rem;
 }
-.head {
-  background-color:#E1EBEE;
-  padding: 1rem;
-  border-bottom: 1px solid #e5e4e2;
-  margin-bottom: 50px;
-  max-height: 1000px;
-}
+
 .me{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 500px;
+  justify-content: space-around;
+  padding: 3rem;
 }
 .btm{
-  padding: 0.5rem 10rem 0.5rem 10rem;
-  border-radius: 15px;
-  border-color: white;
-  text-align: left;
-  max-block-size:200px;
+    background-color: white;
+  padding: 1rem;
+  border: 1px solid #e5e4e2;
+  width: 25%;
+  border-radius: 8px;
 }
-.container{
-  max-width: 25s00px;
-  margin: auto;
-  padding: 0.08rem;
-  text-align: center;
-  background-color: #B2BEB5;
-}
-.bwd{
-  padding: 10px 0.5rem 0.10px 0.5rem;
-  text-align: left;
-  
+
+footer{
+    background-color: #eef2f7;
+    text-align: center;
+    padding: 1rem;
 }
