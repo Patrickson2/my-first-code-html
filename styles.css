@@ -6,8 +6,9 @@ body {
 
 header {
   background-color: #f9fafb;
-   border-bottom: 1px solid #e5e4e2;
+ /*border-bottom: 1px solid #e5e4e2;*/
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
